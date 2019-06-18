@@ -1,0 +1,77 @@
+.recruit-top-wrapper {
+  padding-top: 30px;
+}
+
+.recruit-title h2 {
+  font-size: 70px;
+  color: black;
+  text-align: center;
+}
+
+.recruit-main h3 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.recruit-main {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.recruit-details p{
+  text-align: center;
+}
+
+.recruit-pdfs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recruit-pdf {
+  margin: 20px;
+  border-radius: 5px;
+  background-color: rgba(128,128,128,0.5);
+  box-shadow: 0 0 3px gray;
+}
+
+.recruit-pdf a{
+  display: block;
+  padding: 20px;
+  color: white;
+}
+
+.recruit-pdf a:hover {
+  color: #FF9966;
+}
+
+table ,tr ,th{
+  border: solid 1px #aaa;
+}
+
+table{
+  margin-right:auto;
+  margin-left:auto;
+  border-collapse:collapse;
+}
+
+.recruit-boshu h3{
+  font-size: 30px;
+}
+
+.recruit-table th{
+  padding:5px 10px 5px 10px;
+  width:100px;
+  font-size:16px;
+  background:white;
+    }
+
+.recruit-table td{
+  width:460px;
+  text-align:left;
+  padding:3px 10px 2px 10px;
+  }
+
+.recruit-table {
+  margin-bottom: 100px;
+}

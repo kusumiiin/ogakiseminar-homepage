@@ -1,0 +1,144 @@
+.members-wrapper {
+  padding-top: 30px;
+}
+
+.members-title h2 {
+  font-size: 70px;
+  color: black;
+  text-align: center;
+}
+
+.members-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.waves {
+  position: relative;
+  top: 300px;
+  display: none;
+}
+
+.waves2 {
+  position: relative;
+  display: none;
+  right: 350px;
+}
+
+.wave {
+  opacity: .4;
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background: #0af;
+  width: 500px;
+  height: 500px;
+  margin-left: -250px;
+  margin-top: -250px;
+  transform-origin: 50% 48%;
+  border-radius: 0%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: .1;
+  background-color: orange;
+}
+
+@keyframes drift {
+  from { transform: rotate(0deg); }
+  from { transform: rotate(360deg); }
+}
+
+#ogaki {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  display: none;
+  z-index: 10;
+  border-radius: 10px;
+  box-shadow: 0 0 8px gray;
+}
+
+#ogaki img {
+  width: 100%;
+  height: 100%;
+}
+
+
+#ogaki .caption {
+  font-size: 110%;
+  text-align: center;
+  padding-top: 80px;
+  color: #fff;
+}
+
+#ogaki .member-text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.6);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+#ogaki:hover .member-text{
+  opacity: 1;
+}
+
+
+.member-intro {
+  margin: 15px;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  position: relative;
+  display: none;
+  z-index: 10;
+  border-radius: 10px;
+  box-shadow: 0 0 8px gray;
+}
+
+.member-intro img{
+  height: 100%;
+  width: 100%;
+}
+
+.member-intro .caption{
+  font-size: 120%;
+  text-align: center;
+  padding-top: 80px;
+  color: #fff;
+}
+
+
+.member-intro .member-text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.6);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.member-intro:hover .member-text{
+  opacity: 1;
+}
+
+

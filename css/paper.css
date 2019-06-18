@@ -1,0 +1,31 @@
+body {
+  background: linear-gradient(white, #D9E5FF);
+}
+
+
+.paper-wrapper {
+  padding-top: 30px;
+}
+
+.paper-title h2 {
+  font-size: 70px;
+  color: black;
+  text-align: center;
+}
+
+.paper-content h3{
+  font-size: 30px;
+  text-align: center;
+}
+
+.paper-content p{
+  text-align: center;
+}
+
+.paper-content a{
+  color: rgba(128,128,128,1);
+}
+
+.paper-content a:hover {
+  color: #FF9966;
+}

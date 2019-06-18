@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="お問い合わせ">
+  <meta name="keywords" content="大垣ゼミ、お問い合わせ、連絡">
+  <title>CONTACT</title>
+  <link rel="shortcut icon" href="../images/icon.jpg" >
+  <link rel="stylesheet" href="../css/style.css?20190618">
+  <link rel="stylesheet" href="../css/contact.css?20190618">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/responsive.css?20190618">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="../js/main.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-left">
+        <a href="../index.html">Ogaki Seminar</a>
+      </div>
+      <div class="header-right">
+        <ul class="header-menus">
+          <li class="header-menu" id="members">
+            <a href="./members.html">Members</a>
+<!--             <ul class="members-list">
+              <li class="member">
+                <a href="./html/student/10th.html">10期生</a>
+              </li>
+              <li class="member">
+                <a href="./html/student/9th.html">9期生</a>
+              </li>
+              <li class="member">
+                <a href="./html/student/8th.html">8期生</a>
+              </li>
+            </ul> -->
+          </li>
+          <li class="header-menu">
+            <a href="./paper.html">Paper</a>
+          </li>
+          <li class="header-menu">
+            <a href="./recruit.html">Recruit</a>
+          </li>
+          <li class="header-menu">
+            <a href="./contact.html">Contact</a>
+          </li>
+          <li class="header-menu">
+            <a href="https://mogakisemi.exblog.jp/", target="_blank">Blog</a>
+          </li>
+        </ul>
+      </div>
+      <div id="nav-open">
+        <span></span>
+      </div>
+      <div id="nav-content">
+        <div class="hamburger-top"></div>
+        <ul class="category">
+          <li class="category-title"><a href="../index.html">Top</a></li>
+          <li class="category-title"><a href="./members.html">Members</a></li>
+          <li class="category-title"><a href="./paper.html">Paper</a></li>
+          <li class="category-title"><a href="./recruit.html">Recruit</a></li>
+          <li class="category-title"><a href="./contact.html">Contact</a></li>
+          <li class="category-title"><a href="https://mogakisemi.exblog.jp/", target="_blank"">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <div class="contact-wrapper">
+    <div class="container">
+      <div class="contact-content">
+        <div class="contact-top">
+          <h2>Contact</h2>
+          <p>大垣昌夫研究会にご意見・ご感想などありましたら以下の欄にご記入の上、送信してください。<br>ゼミの活動、入ゼミに関してのご質問もお気軽お寄せください。
+          </p>
+        </div>
+        <form action="https://www.rescue.ne.jp/form/mail.cgi" method="POST">
+          <input type="hidden" name="_uid" value="wO5cHdwEBWevTTLe">
+          <input type="hidden" name="_done" value="../index.html">
+          <input type="hidden" name="_subject" value="お問い合わせ">
+          <input type="hidden" name="_encode" value="utf8">
+          <div class="contact-form">
+            <div class="form-content">
+              <div class="name">
+                お名前
+              </div>
+              <input value="" type="text" name="お名前"/>
+            </div>
+            <div class="form-content">
+              <div class="name">
+                メールアドレス
+              </div>
+              <input value="" type="email" name="メールアドレス"/>
+            </div>
+            <div class="form-content">
+              <div class="name">
+                メールアドレス(確認用)
+              </div>
+              <input value="" type="text" name="メールアドレス（確認用）"/>
+            </div>
+            <div class="form-content">
+              <div class="name">
+                タイトル
+              </div>
+              <input value="" type="text" name="タイトル"/>
+            </div>
+            <div class="form-content">
+              <div class="name">
+                内容
+              </div>
+              <textarea name="内容"></textarea>
+            </div>
+          </div>
+          <div class="button">
+            <input id="submit" type="submit" value="送信">
+          </div>
+          <div id="power">
+            <small>Powered by <a href="http://www.rescue.ne.jp/" target="_blank">CGI RESCUE</a><sup>&reg;</sup></small>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+<footer>
+  <div class="copy">
+    <small>Copyright &copy; Ogaki Masao Seminar, all rights reserved.</small>
+  </div>
+</footer>

@@ -1,0 +1,52 @@
+.contact-wrapper {
+  padding-top: 45px;
+}
+
+.contact-content {
+  text-align: center;
+}
+
+.contact-top h2{
+  font-size: 60px;
+}
+
+form {
+  padding: 40px 0;
+}
+.contact-form {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.form-content {
+  padding-top: 20px;
+}
+
+.contact-form input {
+  width: 300px;
+}
+
+.contact-form textarea {
+  width: 300px;
+  height: 200px;
+  resize: none;
+  border-radius: 5px;
+  border-color: rgba(128,128,128,0.5);
+}
+
+.button {
+  margin: 20px 0;
+}
+
+#submit {
+  padding: 15px 40px;
+  font-size: 1.2em;
+  background-color: rgba(128,128,128,0.5);
+  color: #fff;
+  border-style: none;
+  border-radius: 5px;
+}
+
+#submit:hover {
+  color: #FF9966;
+}
