@@ -4,7 +4,7 @@
 @keyframes RightToLeft {
   0% {
     opacity: 0;
-    transform: translateX(50px);
+    transform: translateX(10px);
   }
   50% {
     opacity: 1;
