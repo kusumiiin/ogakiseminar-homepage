@@ -1,16 +1,1 @@
-body{background:linear-gradient(white,#d9e5ff)}.paper-wrapper{padding-top:30px}.paper-title h2{font-size:70px;color:#000;text-align:center}.paper-content h3{font-size:30px;text-align:center}.paper-content p{text-align:center}.paper-content a{color:rgba(128,128,128,1)}.paper-content a:hover{color:#f96}
-
-@keyframes FadeInPaperContent {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.paper-content {
-  animation-duration: 3s;
-  animation-name: FadeInPaperContent;
-}
+body{background:linear-gradient(white,#d9e5ff)}.paper-wrapper{padding-top:30px}.paper-title h2{font-size:70px;color:#000;text-align:center}.paper-content h3{font-size:30px;text-align:center}.paper-content p{text-align:center}.paper-content a{color:rgba(128,128,128,1)}.paper-content a:hover{color:#f96}@keyframes FadeInPaperContent {0% {opacity: 0;}100% {opacity: 1}}.paper-content {animation-duration: 3s;animation-name: FadeInPaperContent}
